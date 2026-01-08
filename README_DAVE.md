@@ -112,6 +112,7 @@ Expected output: Pressing one of the analog ("ADC") buttons will turn on one of 
 Expected output: By default, the air quality is periodicaly reported only on the serial console. If a flame is burning near the sensor (with a match or lighter), the output should go above 1000ppm, which will turn on the 4 color LEDs.
 
 ### 17. "mic" (microphone input)
+Setup: insert a fat32 formatted micro sd card. I have successfully tried 2GB to 32 GB cards.
 Expected output: five seconds of microphone input will be recorded and saved on the SD card. The serial console displays the start and end of the five second period.
 
 ### 18. "audio" (audio output to stereo speakers)
